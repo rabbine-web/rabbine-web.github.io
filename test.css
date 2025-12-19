@@ -24,9 +24,10 @@ body {
   /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url("Photo15171.jpg"); opacity = 0.5; 
+  background-image: url("Photo15171.jpg"); 
   background-position: center;
   background-size: cover;
+  background-color:rgba(0, 0, 0, 0.5);
   color: var(--color);
   row-gap: 4rem;
 
