@@ -1,10 +1,6 @@
 /* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
-:root {
-  --color: rgb(63 63 63);
-}
-
 table, th, td {
   border: 1px solid;
 }
@@ -12,6 +8,7 @@ table, th, td {
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+  color: white;
 }
 
 .parallax-container {
