@@ -36,13 +36,8 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
 }
 
-p {
-  max-width: 52ch;
-  padding: 1em;
-  line-height: 1.5;
-}
+
 
 }
