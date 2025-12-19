@@ -28,12 +28,6 @@ body {
   text-align: center;
 }
 
-.buffer {
-  width: 100%;
-  min-height: 60vh;
-  background-color: var(--color);
-}
-
 h1 {
   font-size: 2rem;
 }
