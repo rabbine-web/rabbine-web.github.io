@@ -20,7 +20,7 @@ body {
   /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url("Photo15171.jpg");
+  background-image: url("Photo15171.jpg"); opacity = 0.5; 
   background-position: center;
   background-size: cover;
   color: var(--color);
