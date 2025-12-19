@@ -14,6 +14,7 @@ body {
 
   /*  this is where the magic happens:  */
   background-attachment: fixed;
+  min-height: 100vh;
 
   background-image: url("Photo15171.jpg"); 
   background-position: center;
