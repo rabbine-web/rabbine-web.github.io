@@ -27,5 +27,19 @@ h1 {
 }
 
 
+.nav-table {
+	width: 100%;
+  border: 1;
+}
+
+.arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-table td a:hover .arrow {
+  opacity: 1;
+}
+
 
 }
