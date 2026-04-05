@@ -27,7 +27,7 @@ h1 {
 }
 
 
-.navtable {
+#navtable {
 	width: 100%;
   border: 1px solid #000;
 }
@@ -37,7 +37,7 @@ h1 {
   transition: opacity 0.3s ease;
 }
 
-.navtable td a:hover .arrow {
+#navtable td a:hover .arrow {
   opacity: 1;
 }
 
