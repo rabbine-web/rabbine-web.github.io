@@ -26,16 +26,34 @@ h1 {
   font-size: 2rem;
 }
 
-
-#navtable {
+table, tr, td {
+  border:1px solid black;
+}
+.center {
+  display: flex
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}  
+body {
+  font-family: Verdana, sans-serif;
 }
 
-.arrow {
+.navtable {
+  width: 100%;
+}
+
+.bullet {
   opacity: 0;
+  font-weight: bold;
   transition: opacity 0.3s ease;
 }
 
-#navtable td a:hover .arrow {
+.navtable td:hover {
+  background-color:lightgray;
+  border:1px solid lightslategray;
+}
+.navtable td a:hover .bullet {
   opacity: 1;
 }
 
