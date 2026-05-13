@@ -30,16 +30,12 @@ table, tr, td {
   border:1px solid black;
 }
 .center {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
   text-align: center;
   align-items: center;
 }
 .rightside {
-  justify-content: right;
-  text-align: right;
-  align-items: right;
+  display: flex;
+  justify-content: flex-end;
   padding-right: 20vw;
 }  
 
