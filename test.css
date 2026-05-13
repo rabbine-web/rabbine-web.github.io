@@ -30,6 +30,8 @@ table, tr, td {
   border:1px solid black;
 }
 .center {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
