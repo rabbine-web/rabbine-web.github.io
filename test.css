@@ -40,7 +40,7 @@ table, tr, td {
   justify-content: right;
   text-align: right;
   align-items: right;
-  padding: 0% 25%;
+  padding-right: 20vw;
 }  
 
 body {
