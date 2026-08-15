@@ -2,22 +2,16 @@
 <head>
 <style> 
 
-* {
-  box-sizing: border-box;
-}
+.content {
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
 
-.img-container {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
+        img {
+            width: 80%;
+        }
   </style>
 </head>
 
@@ -25,18 +19,15 @@
 
 <p> Thank you to all the participants for a successful conference! </p>
 
-<div class="clearfix">
-  <div class="img-container">
+<div class="content">
   <img src="psession_1.jpeg" alt="Dave at the blackboard" style="width:100%">
 
-<div class="clearfix">
-  <div class="img-container">
   <img src="psession_2.jpeg" alt="Another problem on the blackboard" style="width:100%">
 
-<div class="clearfix">
-  <div class="img-container">
-  <img src="psession_3.jpeg" alt="Jessica's problem on the blackboard" style="width:100%">
+   <img src="psession_3.jpeg" alt="Jessica's problem on the blackboard" style="width:100%">
+</div>
 
+    
 <p>The pdf of all the problems is linked below, thanks to Chris Cornwell. </p>
 <a href = "problems.pdf"> Problems from the Problem Session </a>
   
