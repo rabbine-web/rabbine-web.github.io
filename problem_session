@@ -5,7 +5,7 @@
     td, th {
   text-align: center;
 }
-  </style>
+
 * {
   box-sizing: border-box;
 }
@@ -21,6 +21,8 @@
   clear: both;
   display: table;
 }
+
+  </style>
 
 
 
